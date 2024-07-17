@@ -12,7 +12,7 @@ const ChartBox = () => {
                 </path>
             </svg></div>
         <div class="px-4 text-gray-700">
-            <h3 class="text-sm tracking-wider">Total Members</h3>
+            <h3 class="text-sm tracking-wider">Total Followers</h3>
             <p class="text-3xl">100</p>
         </div>
     </div>

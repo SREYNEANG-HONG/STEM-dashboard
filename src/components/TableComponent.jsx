@@ -59,7 +59,7 @@ const TableComponent = () => {
       <section className="bg-gray-100">
         <DataTable
           fixedHeader={true}
-          fixedHeaderScrollHeight="500px"
+          fixedHeaderScrollHeight="600px"
           columns={columns}
           progressPending={isLoading}
           progressComponent={
@@ -79,7 +79,7 @@ const TableComponent = () => {
             ></input>
           }
           actions={
-            <button className="bg-3fbaf1 text-white p-2 rounded-lg">
+            <button className="bg-3fbaf1 text-white p-2 m-2 rounded-lg">
               + New
             </button>
           }
